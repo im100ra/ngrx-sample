@@ -1,6 +1,8 @@
-# Ngrx
+# Ngrx smaple
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+
+in this project we have user object we want to cache in localStorage , use actions , reducers , effects . 
 
 ## Development server
 
