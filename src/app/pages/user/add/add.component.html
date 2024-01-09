@@ -1,0 +1,11 @@
+<button [routerLink]="['/user']">home</button>
+
+<button (click)="addUser()">add user</button>
+
+@for (user of users$ | async; track $index) {
+
+<div>
+  {{ user | json }}
+</div>
+
+}
